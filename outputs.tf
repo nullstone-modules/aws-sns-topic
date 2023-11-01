@@ -1,9 +1,9 @@
-output "sns_topic_name" {
+output "topic_name" {
   value       = aws_sns_topic.this.name
   description = "string ||| Name of the SNS Topic"
 }
 
-output "sns_topic_arn" {
+output "topic_arn" {
   value       = aws_sns_topic.this.arn
   description = "string ||| ARN of the SNS Topic"
 }
