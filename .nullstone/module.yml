@@ -1,0 +1,13 @@
+org_name: nullstone
+name: aws-sns-topic
+friendly_name: AWS SNS Topic
+description: Creates an AWS SNS Topic. Connect to applications using a publish or subscribe capability.
+category: datastore
+subcategory: ""
+provider_types:
+    - aws
+platform: sns
+subplatform: ""
+type: ""
+appCategories: []
+is_public: true
