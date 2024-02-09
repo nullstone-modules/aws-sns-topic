@@ -1,5 +1,5 @@
 resource "aws_sns_topic" "this" {
-  name = var.topic_name
+  name = local.resource_name
   tags = local.tags
 
   kms_master_key_id = aws_kms_key.this.id
